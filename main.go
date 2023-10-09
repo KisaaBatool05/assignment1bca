@@ -1,13 +1,13 @@
 package main
 
 import (
-	"assignment01bca" // Import your Blockchain package
+	"assignment01bca_project" // Import your Blockchain package
 	"fmt"
 )
 
 func main() {
 	// Create a new blockchain
-	blockchain := &assignment01bca.Blockchain{}
+	blockchain := &assignment01bca_project.Blockchain{}
 
 	// Add some blocks to the blockchain
 	blockchain.NewBlock("Alice to Bob", 123, "0000000000")
